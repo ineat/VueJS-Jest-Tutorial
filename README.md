@@ -1,31 +1,14 @@
-# vue-hero-team
+# VueHeroTeam
+This project is attached to article related to How to test your VueJS application by Jest and how to perform unit test using Jest
 
-## Project setup
-```
-yarn install
-```
+> URL de l'article
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## 01-HeroTeamApp-Untested branch
+Initial project generated with [VueJS CLI](https://cli.vuejs.org/) version 3.1.3. And initialize your project with Jest as test framework.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+Checkout branch, and run `yarn install`
+Run `yarn serve` to show the VueJS Hero Team Selector App throught your favorite browser at `http://localhost:8081/` and run json-server at same time using concurrently.
+Run `yarn test`to execute test Hero Team Selector App unit test using Jest but no test are write in this branch
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
+## 02-HeroTeamApp-Tested
+Hero Team Selector App with all component are tested by unit test writting with Jest Framework
